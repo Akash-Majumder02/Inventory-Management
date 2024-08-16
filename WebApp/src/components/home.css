@@ -1,0 +1,40 @@
+.home-page {
+    display: flex; /* Allow header and main to sit side-by-side */
+    flex-direction: column; /* Stack header and main vertically */
+    min-height: 100vh; /* Set minimum height for full viewport */
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .home-page header {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .home-page nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .home-page nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .home-page nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .home-page nav a {
+    text-decoration: double;
+    color: #333;
+  }
+  
+  .home-page main {
+    flex: 1; /* Allow main to fill remaining space */
+    padding: 20px;
+  }
+  

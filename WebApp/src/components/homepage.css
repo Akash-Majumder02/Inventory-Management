@@ -1,0 +1,18 @@
+.home-container {
+    background-color: rgb(19, 76, 114);
+    position: relative; /* Needed for absolute positioning of the line */
+  }
+  
+  .white-line {
+    position: absolute; /* Position the line on top of the container */
+    top: 101%; /* Center the line vertically */
+    left: 0; /* Start the line from the left edge */
+    width: 100%; /* Make the line span the entire container width */
+    height: 10%; /* Set the line height */
+    background-color: rgb(0, 0, 0);
+  }
+  .h1{
+    color: white;
+    text-align: center;
+    background-origin: padding-box;
+  }
